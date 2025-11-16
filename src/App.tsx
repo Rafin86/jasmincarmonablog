@@ -16,13 +16,13 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Vite + React + Danny</h1>
+      <h1>Coming soon: jasminecarmona.com/blog</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
+        {/* <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
-        </button>
+        </button> */}
         <p>
-          Edit <code>src/App.tsx</code> and save to test HMR
+          This web app is being developed with Vite and React by <i>RafinDev.io</i>
         </p>
       </div>
       <p className="read-the-docs">
