@@ -6,11 +6,11 @@ interface NavMenuProps {
     onLinkClick: (page: string) => void;
 }
 
-enum Pages {
-    HOME = "Home",
-    BLOG = "Blog",
-    WRITE = "Write"
-}
+const Pages = {
+    HOME: "Home",
+    BLOG: "Blog",
+    WRITE: "Write"
+} as const;
 
 export default function NavMenu({onLinkClick}: NavMenuProps) {
     const [isOpen, setIsOpen] = useState(true);
