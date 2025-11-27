@@ -13,7 +13,7 @@ const Pages = {
 } as const;
 
 export default function NavMenu({onLinkClick}: NavMenuProps) {
-    const [isOpen, setIsOpen] = useState(true);
+    const [isOpen, setIsOpen] = useState(false);
 
     function handleLinkClick(e: React.MouseEvent<HTMLUListElement>) {
         e.preventDefault();
