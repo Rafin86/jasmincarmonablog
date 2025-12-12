@@ -2,7 +2,7 @@
 
 @theme {
     --animate-fadeIn: fadeIn 1s ease-out forwards;
-
+    --color-customBeige: 	#F0EAE8;
     @keyframes fadeIn {
         from {
             opacity: 0;
