@@ -14,7 +14,7 @@ function App() {
 
   return (
     <main className="bg-gray-900 h-screen text-white">
-      <div id="banner" className="flex flex-col items-center">
+      <div id="banner" className="hidden flex flex-col items-center">
         <h1 className="">Coming soon:</h1>
         <h1>jasmincarmona.com/blog</h1>
         <p className='text-center'>
