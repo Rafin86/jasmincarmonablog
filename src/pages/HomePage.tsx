@@ -5,7 +5,7 @@ export default function HomePage() {
             <div className={`flex-col flex-wrap bg-customBeige bg-[url('https://media.istockphoto.com/id/1295250677/photo/modern-scandinavian-home-interior-with-design-wooden-commode-tropical-leaf-in-vase-books-and.jpg?s=612x612&w=is&k=20&c=IqRccXuGpbkXE3UluNbZ67ShQREKMhXw3PimwNkAKsM=')] bg-cover bg-center min-h-screen p-2 pt-15`}>
                 
                     <h1 className="text-3xl flex h-fit text-amber-950 font-bold">Hi! I'm Jasmin</h1>
-                    <div className="w-60 h-55 rounded-full overflow-hidden border-2 m-5 ml-auto">
+                    <div className="w-60 h-60 rounded-full overflow-hidden border-2 m-5 ml-auto">
                         <img
                             src="https://images.squarespace-cdn.com/content/v1/56589577e4b02fbb0a38beaa/1637689021697-64TMER9JRXNYKGH1WNT5/_A7R3310+copy.jpg?format=300w"
                             alt="Description of image"
